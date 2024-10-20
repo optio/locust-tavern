@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "locust-tavern"
+version = "0.1.0"
+description = ""
+authors = ["Sacha Vandewalle <sacha.vandewalle@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.2"
+tavern = "^2.11.0"
+flask = "^3.0.3"
+pytest-sugar = "^1.0.0"
+locust = "^2.32.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
